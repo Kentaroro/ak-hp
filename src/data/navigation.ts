@@ -1,9 +1,9 @@
 export const navigation = [
     { label: 'Home', href: '#home' },
-    { label: 'BIOGRAPHY', href: '#about' },
-    { label: 'DISCOGRAPHY', href: '#skills' },
-    { label: 'NEWS', href: '#contact' },
-    { label: 'CONTACT', href: '#works' },
+    { label: 'BIOGRAPHY', href: '#biography' },
+    { label: 'DISCOGRAPHY', href: '#discography' },
+    { label: 'NEWS', href: '#news' },
+    { label: 'CONTACT', href: '#contact' },
 ]
 
 export const sns = [
