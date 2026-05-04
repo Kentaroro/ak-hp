@@ -69,8 +69,8 @@ const Sidebar = () => {
               <img
                 src={logo}
                 alt="ABANDONED GIRLS' SCHOOL"
-                width={250}
-                height={84}
+                width={500}
+                height={168}
                 className="w-full h-auto max-w-[250px]"
               />
             </a>
@@ -84,7 +84,7 @@ const Sidebar = () => {
                   <a
                     href={item.href}
                     onClick={handleNavClick}
-                    className="block text-sm tracking-[0.2em] uppercase hover:opacity-70 transition-opacity"
+                    className="block md:text-lg text-sm uppercase hover:opacity-70 transition-opacity"
                   >
                     {item.label}
                   </a>
