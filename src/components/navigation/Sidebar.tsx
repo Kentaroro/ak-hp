@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { navigation, sns } from '../../data/navigation'
+import logo from '../../assets/logo.png'
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -64,12 +65,14 @@ const Sidebar = () => {
         <div className="h-full flex flex-col px-10 py-12">
           {/* ロゴ */}
           <div className="mb-12">
-            <a
-              href="#home"
-              onClick={handleNavClick}
-              className="block text-2xl font-bold tracking-widest"
-            >
-              AK HIROSHI
+            <a href="#home" onClick={handleNavClick} className="block">
+              <img
+                src={logo}
+                alt="ABANDONED GIRLS' SCHOOL"
+                width={250}
+                height={84}
+                className="w-full h-auto max-w-[250px]"
+              />
             </a>
           </div>
 
